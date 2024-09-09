@@ -1,0 +1,210 @@
+body{
+    background-color: rgb(211, 205, 205);
+   justify-content: space-around;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 30px;
+    padding: 15px;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+#aff{
+    padding-top: 40px;
+    padding-left: 11px;
+    color: rgb(250, 187, 13);
+}
+.Container{
+    padding-left: 15px;
+    padding: 25px;
+   
+  
+}
+button{
+    color: black;
+    background-color: rgb(255, 196, 0);
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+    width: 160px;
+}
+#aboutname{
+    text-decoration: underline overline;
+}
+.about1{
+    background-color: gray;
+    margin-top: 15px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    text-size-adjust: 20px;
+}
+.first{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    width: 30%;
+    border: solid rgb(255, 200, 19) 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+.cars{
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.contact{
+    background-color: gray;
+    padding: 45px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.contact-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 50%;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    display: none; 
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 50%;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+.one{
+    background-color: rgb(26, 22, 22);
+    margin-top: 30px;
+    
+}
+.footer2{
+    background-color:  rgb(26, 22, 22);
+}
+p{
+    color:white;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    border-bottom: 1px solid rgb(63, 57, 57);
+}
+.about{
+    padding-left: 40px;
+    color: white;
+}
+#about{
+    color: gray;
+}
+.group{
+    color: white;
+}
+#group{
+    color: gray;
+}
+.help{
+    color: white;
+}
+
+#help{
+    color: gray;
+}
+
+.consumer{
+    color: white;
+}
+#consumer{
+    color: gray;
+}
+.mail{
+
+    color: white;
+    padding-left: 50px;
+    border-left: 1px solid gray;
+}
+#mail{
+color: gray;
+}
+.register{
+
+    color: white;
+}
+#register{
+    color: gray;
+}
+#Social{
+    color: gray;
+}
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+h4{
+    margin: 0;
+}
+
+.footer2{
+    padding: 30px;
+    padding-top: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
